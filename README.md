@@ -1,3 +1,6 @@
+![Thumbnail](./assets/thumbnail.png)
+![Demo](./assets/example.gif)
+
 Animated Brush Add-on enhances Blender’s texture painting workflow by adding random frame cycling for image sequence brush textures. It supports two main modes:
 - Continuous: frames cycles in real time while painting, creating a smooth animated effect.
 - Per Stroke: frames cycles once at the start of each stroke for better control.
