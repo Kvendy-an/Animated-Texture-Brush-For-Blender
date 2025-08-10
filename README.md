@@ -1,7 +1,7 @@
 <img src="./assets/icon.png" width="64" />
 <p>
-  <img src="./assets/thumbnail.png" height="300" style="vertical-align:middle; margin-right:20px;" />
-  <img src="./assets/example.gif" height="300" style="vertical-align:middle;" />
+  <img src="./assets/thumbnail.png" height="200" style="vertical-align:middle; margin-right:20px;" />
+  <img src="./assets/example.gif" height="200" style="vertical-align:middle;" />
 </p>
 
 Animated Brush Add-on enhances Blender’s texture painting workflow by adding random frame cycling for image sequence brush textures. It supports two main modes:
