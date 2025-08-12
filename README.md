@@ -1,6 +1,6 @@
-<img src="./assets/icon.png" width="64" />
 <p>
   <img src="./assets/thumbnail.png" height="200" style="vertical-align:middle; margin-right:20px;" />
+  <img src="./assets/sidebar UI.png" height="200" style="vertical-align:middle; margin-right:20px;" />
   <img src="./assets/example.gif" height="200" style="vertical-align:middle;" />
 </p>
 
@@ -26,6 +26,10 @@ How to Add Sequence Texture to a Brush:
 
 How to Install:
 - Drag and Drop the Zip file to Blender (animated_brush.zip) → Press OK.
+
+To make things easier I made a Free Brushpack with some animated brushes included:
+- Preview Images
+<img src="./assets/ayo brushpack.png" height="200" style="vertical-align:middle; margin-right:20px;" />
 
 Tested on Blender 4.4 and newer
 
