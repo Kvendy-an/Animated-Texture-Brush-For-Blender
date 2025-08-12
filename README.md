@@ -29,7 +29,11 @@ How to Install:
 
 To make things easier I made a Free Brushpack with some animated brushes included:
 - Preview Images
-<img src="./assets/ayo brushpack.png" height="200" style="vertical-align:middle; margin-right:20px;" />
+<p>
+  <img src="./assets/ayo thumbnail.png" height="200" style="vertical-align:middle; margin-right:20px;" />
+  <img src="./assets/ayo brushpack.png" height="200" style="vertical-align:middle; margin-right:20px;" />
+</p>
+- Brushpack Link: https://kvendy.gumroad.com/l/bhnjmo
 
 Tested on Blender 4.4 and newer
 
