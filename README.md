@@ -1,10 +1,11 @@
 <p>
   <img src="./assets/thumbnail.png" height="200" style="vertical-align:middle; margin-right:20px;" />
   <img src="./assets/sidebar UI.png" height="200" style="vertical-align:middle; margin-right:20px;" />
+    <img src="./assets/example1 brush.png" height="200" style="vertical-align:middle; margin-right:20px;" />
   <img src="./assets/example.gif" height="200" style="vertical-align:middle;" />
 </p>
 
-Animated Brush Add-on enhances Blender’s texture painting workflow by adding random frame cycling for image sequence brush textures. It supports two main modes:
+Animated Texture Brush Add-on improve Blender’s Texture/Vertex Paint, and Sculpting modes by adding random frame cycling for brushes with an image sequence textures. It supports two main modes:
 - Continuous: frames cycles in real time while painting, creating a smooth animated effect.
 - Per Stroke: frames cycles once at the start of each stroke for better control.
 
@@ -13,7 +14,7 @@ Benefits:
 - Perfect for Hand-Painted Textures, especially useful for organic surfaces like dirt, foliage, rocks, or stylized textures.
 
 Requirements:
-- Texture paint brush using an image sequence texture (4+ frames recommended for best effect).
+- A brush with an image sequence texture set as __Texture__ or __Mask Texture__ (4+ frames recommended for best effect).
 - Brush texture or brush mask texture can be used.
 - The add-on must be enabled in Blender Preferences.
 
@@ -28,13 +29,9 @@ How to Install:
 - Drag and Drop the Zip file to Blender (animated_brush.zip) → Press OK.
 
 To make things easier I made a Free Brushpack with some animated brushes included:
-- Preview Images
-<p>
-  <img src="./assets/ayo thumbnail.png" height="200" style="vertical-align:middle; margin-right:20px;" />
-  <img src="./assets/ayo brushpack.png" height="200" style="vertical-align:middle; margin-right:20px;" />
-</p>
-- Brushpack Link: https://kvendy.gumroad.com/l/bhnjmo
+- Preview Images. <p> <img src="./assets/ayo thumbnail.png" height="200" style="vertical-align:middle; margin-right:20px;" /> <img src="./assets/ayo brushpack.png" height="200" style="vertical-align:middle; margin-right:20px;" /> </p>
+- Brushpack Link: https://kvendy.gumroad.com/l/bhnjmo.
 
-Tested on Blender 4.4 and newer
+__Tested on Blender 4.4 and newer__
 
 Enjoy Painting!!!
