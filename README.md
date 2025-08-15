@@ -28,13 +28,13 @@ How to Add Sequence Texture to a Brush:
 5. In the Properties Tab → Tool → Texture/Texture Mask → Select the Created Texture.
 
 How to Install:
-- Drag and Drop the Release Zip file to Blender → Press OK.
-- Or Download the add-on with Blender __Get Extentions__, search for "Animated Texture Brush".
+- Drag and Drop the [Latest Release Zip file](https://github.com/Kvendy-an/Animated-Texture-Brush-For-Blender/releases) to Blender → Press OK.
+- Or Get the add-on with [Blender Extensions](https://extensions.blender.org/add-ons/animated-brush/), search for "Animated Texture Brush".
 
 To make things easier I made a Free Brushpack with some animated brushes included:
 - Preview Images. <p> <img src="./assets/ayo thumbnail.png" height="200" style="vertical-align:middle; margin-right:20px;" /> <img src="./assets/ayo brushpack.png" height="200" style="vertical-align:middle; margin-right:20px;" /> </p>
-- Brushpack Link: https://kvendy.gumroad.com/l/bhnjmo.
-
-__Tested on Blender 4.4 and newer__
+- [Get It On Gumroad](https://kvendy.gumroad.com/l/bhnjmo).
 
 Enjoy Painting!!!
+
+__Tested on Blender 4.4 and newer__
