@@ -5,6 +5,8 @@
   <img src="./assets/example.gif" height="200" style="vertical-align:middle;" />
 </p>
 
+[Available On Blender Extensions](https://extensions.blender.org/add-ons/animated-brush/)
+
 Animated Texture Brush Add-on improve Blender’s Texture/Vertex Paint, and Sculpting modes by adding random frame cycling for brushes with an image sequence textures. It supports two main modes:
 - Continuous: frames cycles in real time while painting, creating a smooth animated effect.
 - Per Stroke: frames cycles once at the start of each stroke for better control.
@@ -26,7 +28,8 @@ How to Add Sequence Texture to a Brush:
 5. In the Properties Tab → Tool → Texture/Texture Mask → Select the Created Texture.
 
 How to Install:
-- Drag and Drop the Zip file to Blender (animated_brush.zip) → Press OK.
+- Drag and Drop the Release Zip file to Blender → Press OK.
+- Or Download the add-on with Blender __Get Extentions__, search for "Animated Texture Brush".
 
 To make things easier I made a Free Brushpack with some animated brushes included:
 - Preview Images. <p> <img src="./assets/ayo thumbnail.png" height="200" style="vertical-align:middle; margin-right:20px;" /> <img src="./assets/ayo brushpack.png" height="200" style="vertical-align:middle; margin-right:20px;" /> </p>
