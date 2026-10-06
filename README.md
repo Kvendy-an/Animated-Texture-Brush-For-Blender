@@ -1,40 +1,86 @@
-<p>
-  <img src="./assets/thumbnail.png" height="200" style="vertical-align:middle; margin-right:20px;" />
-  <img src="./assets/sidebar UI.png" height="200" style="vertical-align:middle; margin-right:20px;" />
-    <img src="./assets/example1 brush.png" height="200" style="vertical-align:middle; margin-right:20px;" />
-  <img src="./assets/example.gif" height="200" style="vertical-align:middle;" />
+# Animated Texture Brush for Blender
+
+<p align="center">
+  <img src="./assets/thumbnail.png" height="200" alt="Animated Texture Brush">
+  <img src="./assets/sidebar%20UI.png" height="200" alt="Animated Texture Brush sidebar">
+  <img src="./assets/example1%20brush.png" height="200" alt="Animated brush example">
+  <img src="./assets/example.gif" height="200" alt="Animated Texture Brush demo">
 </p>
 
-[Available On Blender Extensions](https://extensions.blender.org/add-ons/animated-brush/)
+**Animated Texture Brush** improves Blender's Texture Paint, Sculpt, Vertex Paint, and Image Editor Paint workflows by varying an existing brush using an image sequence while you paint.
 
-Animated Texture Brush Add-on improve Blender’s Texture/Vertex Paint, and Sculpting modes by adding random frame cycling for brushes with an image sequence textures. It supports two main modes:
-- Continuous: frames cycles in real time while painting, creating a smooth animated effect.
-- Per Stroke: frames cycles once at the start of each stroke for better control.
+Choose how the sequence advances, when frames change, and whether the animation affects the brush texture, mask, or both.
 
-Benefits:
-- Natural Variation: break the repetitive look of the default brushes by introducing subtle changes randomly.
-- Perfect for Hand-Painted Textures, especially useful for organic surfaces like dirt, foliage, rocks, or stylized textures.
+Also available directly from [Blender Extensions](https://extensions.blender.org/add-ons/animated-brush/).
 
-Requirements:
-- A brush with an image sequence texture set as __Texture__ or __Mask Texture__ (4+ frames recommended for best effect).
-- Brush texture or brush mask texture can be used.
-- The add-on must be enabled in Blender Preferences.
+## Features
 
-How to Add Sequence Texture to a Brush:
-1. Enable the add-on in Blender Preferences → Add-ons.
-2. Select an Object → switch to Texture Paint mode.
-3. In the Properties Tab → Texture → Brush/Brush Mask → New → Open.
-4. Locate your image sequence → Select All → Open Image.
-5. In the Properties Tab → Tool → Texture/Texture Mask → Select the Created Texture.
+- **Random** Select a sequence frame at random.
+- **Ordered** Advance through the frames in order, then loop back to the beginning.
+- **Ping-Pong** Advance forward and then backward without repeating the endpoints.
+- **No Repeat** Prevent consecutive duplicate selections in Random mode when more than one frame is available.
+- Animate the **brush texture**, **mask**, or **both**.
+- **Continuous** Change frames while drawing a stroke.
+- **Per Stroke** Select a new frame when each stroke begins.
+- Supports:
+  - Texture Paint
+  - Sculpt
+  - Vertex Paint
+  - Image Editor Paint
 
-How to Install:
-- Drag and Drop the [Latest Release Zip file](https://github.com/Kvendy-an/Animated-Texture-Brush-For-Blender/releases) to Blender → Press OK.
-- Or Get the add-on with [Blender Extensions](https://extensions.blender.org/add-ons/animated-brush/), search for "Animated Texture Brush".
+## Getting Started
 
-To make things easier I made a Free Brushpack with some animated brushes included:
-- Preview Images. <p> <img src="./assets/ayo thumbnail.png" height="200" style="vertical-align:middle; margin-right:20px;" /> <img src="./assets/ayo brushpack.png" height="200" style="vertical-align:middle; margin-right:20px;" /> </p>
-- [Get It On Gumroad](https://kvendy.gumroad.com/l/bhnjmo).
+1. Create or use a brush with an existing **Image Texture** set to **Image Sequence** and a positive **Frames** value.
 
-Enjoy Painting!!!
+   Configure the image sequence and its local image paths normally in Blender.
 
-__Tested on Blender 4.4 and newer__
+2. Enable **Animated Texture Brush** from the Tool sidebar or the extension preferences.
+
+   Controls are also available in the **Properties Editor → Tool** tab for supported 3D paint modes.
+
+3. Choose your:
+   - **Cycle Mode**
+   - **Frame Order**
+   - **Animate Target**
+
+For predictable frame changes between separate strokes, use **Per Stroke** together with **Ordered** or **Ping-Pong**.
+
+## Continuous Mode & Timing
+
+Continuous mode is **time-based** rather than advancing exactly once per painted stamp.
+
+Because of this:
+
+- Visible brush stamps may skip or repeat frames.
+- Blender's native Image Editor texture caching may keep the first sampled frame for part or all of a stroke.
+- **No Repeat** applies to frame selections and does not guarantee that every visible painted stamp will look different.
+
+## Installation
+
+### Blender Extensions
+
+Get the add-on from [Blender Extensions](https://extensions.blender.org/add-ons/animated-brush/) and search for **Animated Texture Brush**.
+
+### GitHub Release
+
+1. Download the [latest release ZIP](https://github.com/Kvendy-an/Animated-Texture-Brush-For-Blender/releases).
+2. Drag and drop the ZIP file into Blender.
+3. Press **OK** to install it.
+
+## Free Animated Brush Packs
+
+To make getting started easier, I've made **two free brush packs** containing **200+ high-quality draw, smear, and stamp brushes** combined. You can get both from [Gumroad](https://kvendy.gumroad.com).
+
+<p align="center">
+  <img src="./assets/ayo%20brushpack%20thumbnail.png" height="200" alt="Ayo Brushpack">
+  <img src="./assets/aquarelle%20brushpack%20thumbnail.png" height="200" alt="Aquarelle Brushpack">
+</p>
+
+- [**Ayo Brushpack**](https://kvendy.gumroad.com/l/bhnjmo/)
+- [**Aquarelle Brushpack, New!**](https://kvendy.gumroad.com/l/xtfnny/)
+
+---
+
+**Tested on Blender 5.0 and newer.**
+
+Enjoy painting!
